@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 8px #f0f1f2;
+  border-radius: 0px;
+  height: 64px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.35rem;
+}
+.logo-text {
+  font-weight: 300;
+}
+.logo {
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+.header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-items {
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 5rem;
+}
+.login {
+  //   display: flex;
+  //   flex-direction: column;
+  align-items: center;
+  padding: 5px 16px;
+  background: #ffffff;
+
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+  border-radius: 2px;
+  margin: 0 3rem;
+}
+.sign-up {
+  //   display: flex;
+  //   flex-direction: column;
+  align-items: center;
+  padding: 5px 16px;
+  background: #1890ff;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35rem;
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-content {
+  h1 {
+    height: 42px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    //   text-align: left;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 17px;
+    line-height: 22px;
+    width: 600px;
+    margin-bottom: 2rem;
+  }
+  h6 {
+    font-size: 17px;
+    line-height: 22px;
+    width: 600px;
+    font-weight: 400;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.home-img-container {
+  width: 70%;
+  margin-top: 8rem;
+}
+
+.boxes {
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+  // //   width: 1320px;
+  // height: 103px;
+  // //   left: 60px;
+  // //   top: 542px;
+
+  // background: #ffffff;
+  // /* drop-shadow/.15 */
+  // margin: 5rem auto;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin: 0 auto;
+  padding: 1.3rem 2rem;
+}
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin-right: 15rem;
+}
+.box-img-container {
+  margin-right: 2rem;
+}
+.footer {
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  // height: 150vh;
+}
+.footer-heading {
+  text-align: center;
+  font-size: 25px;
+  margin: 3rem auto;
+  // display: block;
+}
+.footer-card {
+  background: linear-gradient(
+      97.66deg,
+      #2f80ed 0.94%,
+      rgba(123, 174, 244, 0.635417) 73.96%,
+      rgba(150, 191, 246, 0.504346) 83.82%,
+      rgba(255, 255, 255, 0) 121.8%
+    ),
+    #56ccf2;
+  /* drop-shadow/.15 */
+  padding: 3.5rem 2.45rem;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 599px;
+  height: 422px;
+  color: #ffffff;
+}
+.card-duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 9rem;
+  margin-top: 5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.duration {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+.project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+.card-content {
+  h6 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 1.2rem;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 1.2rem;
+  }
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+.main-footer-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3rem;
+  // height: 0rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.green {
+  background: linear-gradient(
+      296.48deg,
+      #87e8de -14.41%,
+      rgba(181, 241, 235, 0.613161) 25.24%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #13c2c2;
+}
